@@ -57,11 +57,11 @@
             this.SpecificValue1 = SpecificValue1;
             this.SpecificValue2 = SpecificValue2;
         }
-        public WinCondition(OneShot.Data.WinConditionSpecificValue winConditionValues) {
-            this.WinConditionType = (WinConditionTypes)winConditionValues.WinConditionId;
-            this.SpecificValue1 = int.Parse(winConditionValues.SpecificValue1);
-            this.SpecificValue2 = int.Parse(winConditionValues.SpecificValue2 ?? "-1");
-        }
+        //public WinCondition(OneShot.Data.WinConditionSpecificValue winConditionValues) {
+        //    this.WinConditionType = (WinConditionTypes)winConditionValues.WinConditionId;
+        //    this.SpecificValue1 = int.Parse(winConditionValues.SpecificValue1);
+        //    this.SpecificValue2 = int.Parse(winConditionValues.SpecificValue2 ?? "-1");
+        //}
         public string Description { get => WinConditionTypeDescriptions[(int)WinConditionType].Replace("{CellValue}", "<img class='icon' src='_content/PurpleSiggy.Games.OneShot/images/" + CellValue.ToString() + ".png'/>").Replace("{SpecificValue1}", SpecificValue1.ToString()).Replace("{SpecificValue2}", SpecificValue2.ToString()); }
         public bool IsMet(Grid GridToCheck, int Location) {
             bool isMet = false;
