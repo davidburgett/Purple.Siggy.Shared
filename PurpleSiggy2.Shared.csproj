@@ -4,6 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Purple.Siggy.Shared</PackageId>
+    <Title>Purple.Siggy.Shared</Title>
+    <Authors>Purple Siggy</Authors>
+    <Company>Purple Siggy</Company>
+    <Product>Purple.Siggy.Shared</Product>
+    <PackageProjectUrl>https://github.com/davidburgett/Purple.Siggy.Shared</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/davidburgett/Purple.Siggy.Shared</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>Purple.Siggy.Shared</ToolCommandName>
   </PropertyGroup>
 
   <ItemGroup>
