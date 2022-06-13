@@ -23,5 +23,5 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Package
-      run: dotnet nuget update source --username david@burgett.com --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/david.burgett/index.json"
+#    - name: Package
+#      run: dotnet nuget update source --username david@burgett.com --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/david.burgett/index.json"
