@@ -15,6 +15,7 @@
     <RepositoryType>git</RepositoryType>
     <PackAsTool>True</PackAsTool>
     <ToolCommandName>Purple.Siggy.Shared</ToolCommandName>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
